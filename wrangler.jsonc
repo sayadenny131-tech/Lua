@@ -2,7 +2,14 @@
   "name": "autofbskuy",
   "main": "worker.js",
   "compatibility_date": "2026-08-20",
-
+  "keep_vars": true,
+  "d1_databases": [
+    {
+      "binding": "HYBRID_DB",
+      "database_name": "skuy-feedback-binding",
+      "database_id": "3219d3bd-7a61-4871-8645-d546ed4b2174"
+    }
+  ],
   "observability": {
     "enabled": true,
     "head_sampling_rate": 1,
